@@ -73,7 +73,11 @@ if ($ID == 'servers') {$conf['htmlok'] = true;}
 		?>
 		<div id='menu'>
 			<ul>
-				<li style="float:left; margin-left:16px; background:none;"><a href="./" style="background:none; margin:0; padding:0; border:0;"><img src="<?php echo H6E_CSS ?>/images/minetest-icon-60.png" /></a></li>
+				<li style="float:left; margin-left:16px; background:none;">
+					<a href="./" class="logo">
+						<img src="<?php echo H6E_CSS ?>/images/minetest-icon-60.png" />Minetest
+					</a>
+				</li>
 				<li><a href='./'>Home</a></li>
 				<li>
 					<a href='<?php echo $nav_pre; ?>download'>Download</a>

@@ -112,8 +112,8 @@
 	width:auto;
 	height:33px;
 	color:#323232;
-	padding-left:0.44em;
-	padding-right:0.44em;
+	padding-left:0.6em;
+	padding-right:0.6em;
 	font-weight:regular;
 	font-family:"Calibri", sans-serif;
 	line-height:33px;
@@ -183,4 +183,36 @@
 
 #menu a.sub_ex:hover {
 	color: #009dff;
+}
+
+#menu a.logo:link,
+#menu a.logo:visited {
+	display:block;
+	width:auto;
+	height:60px;
+	background: none;
+	margin: 0;
+	margin-top:3px;
+	padding: 0;
+	padding-right:3px;
+	border: 0;
+	line-height: 68px;
+	color: #999;
+	text-decoration: none;
+	font-size: 1.7em;
+	font-family: inherit;
+	text-align:left;
+}
+
+#menu a.logo:hover,
+#menu a.logo:visited:hover {
+	color:#323232 !important;
+	background:none !important;
+	/*color: #009dff;
+	box-shadow: 0 0 8px;*/
+}
+
+#menu a.logo img {
+	float:left;
+	margin-right:5px;
 }
